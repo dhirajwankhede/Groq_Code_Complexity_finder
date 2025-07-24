@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Groq Code Complexity Analyzer",
+  "version": "1.0",
+  "description": "Upload code and get its time and space complexity using Groq API",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}
